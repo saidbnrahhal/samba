@@ -9,7 +9,7 @@
     	usersService.loadAllUsers();
     	this.userToAdd ={};
     	$scope.$on('$destroy', function() {
-        	paramUserProfile.destroyData();
+    		usersProfile.destroyData();
         });
     }
     
